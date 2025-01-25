@@ -162,7 +162,7 @@ local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or 
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = HttpService
 if queueonteleport then
-	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua'))()")
+	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/warpVIT/PLS_Donate_script/refs/heads/main/PLS_donate.lua'))()")
 end
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/UI"))()
 local _HIGHLIGHTLOADER
