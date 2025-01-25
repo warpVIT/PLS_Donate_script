@@ -14,7 +14,7 @@ game:GetService("GuiService").ErrorMessageChanged:Connect(function()
 end)
 
   --Stops script if on a different game
-if game.PlaceId ~= 8737602449 and game.PlaceId ~= 8943844393 then
+if game.PlaceId ~= 8737602449 and game.PlaceId ~= 8943844393 and game.PlaceId ~= 18852429314 then
 	return
 end
 
